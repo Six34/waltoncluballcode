@@ -1,3 +1,8 @@
+// resistor for LED is 220 ohm.
+// Daisy chaines two 4.7k ohm resistors for the LDR.
+// Button is pressed to illuminate the LDR and simulate a lit room, led should turn off when button isnt pressed. filament bulb turns on when button pressed
+
+
 const int ldrPin = A0;
 const int ledPin = 9;
 
